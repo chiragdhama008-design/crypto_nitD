@@ -1,0 +1,558 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 0.9567,
+  "precision": 0.8002,
+  "recall": 0.7887,
+  "f1": 0.7943,
+  "roc_auc": 0.8934,
+  "pr_auc": 0.664,
+  "illicit_precision": 0.6246,
+  "illicit_recall": 0.5991,
+  "illicit_f1": 0.6116,
+  "evaluation_strategy": "Temporal Chronological Split (Train: Steps 1-34, Test: Steps 40-49)",
+  "training_period": "Timesteps 1 - 34",
+  "validation_period": "Timesteps 35 - 39",
+  "testing_period": "Timesteps 40 - 49",
+  "confusion_matrix": {
+    "true_negative": 10319,
+    "false_positive": 229,
+    "false_negative": 255,
+    "true_positive": 381
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0,
+      "threshold": null
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.261,
+      "threshold": 0.9789
+    },
+    {
+      "fpr": 0.0002,
+      "tpr": 0.456,
+      "threshold": 0.8434
+    },
+    {
+      "fpr": 0.0022,
+      "tpr": 0.5425,
+      "threshold": 0.7297
+    },
+    {
+      "fpr": 0.0065,
+      "tpr": 0.5833,
+      "threshold": 0.6382
+    },
+    {
+      "fpr": 0.0479,
+      "tpr": 0.6085,
+      "threshold": 0.3739
+    },
+    {
+      "fpr": 0.084,
+      "tpr": 0.6352,
+      "threshold": 0.2764
+    },
+    {
+      "fpr": 0.1192,
+      "tpr": 0.6509,
+      "threshold": 0.2121
+    },
+    {
+      "fpr": 0.1352,
+      "tpr": 0.6761,
+      "threshold": 0.1916
+    },
+    {
+      "fpr": 0.1615,
+      "tpr": 0.6981,
+      "threshold": 0.16
+    },
+    {
+      "fpr": 0.1783,
+      "tpr": 0.7217,
+      "threshold": 0.1457
+    },
+    {
+      "fpr": 0.2069,
+      "tpr": 0.7453,
+      "threshold": 0.1254
+    },
+    {
+      "fpr": 0.2232,
+      "tpr": 0.7673,
+      "threshold": 0.1148
+    },
+    {
+      "fpr": 0.2433,
+      "tpr": 0.7909,
+      "threshold": 0.1021
+    },
+    {
+      "fpr": 0.2559,
+      "tpr": 0.8097,
+      "threshold": 0.0955
+    },
+    {
+      "fpr": 0.2703,
+      "tpr": 0.8333,
+      "threshold": 0.0891
+    },
+    {
+      "fpr": 0.2884,
+      "tpr": 0.8491,
+      "threshold": 0.0811
+    },
+    {
+      "fpr": 0.3047,
+      "tpr": 0.8632,
+      "threshold": 0.0764
+    },
+    {
+      "fpr": 0.3171,
+      "tpr": 0.8805,
+      "threshold": 0.071
+    },
+    {
+      "fpr": 0.3353,
+      "tpr": 0.8931,
+      "threshold": 0.0662
+    },
+    {
+      "fpr": 0.3541,
+      "tpr": 0.9088,
+      "threshold": 0.0601
+    },
+    {
+      "fpr": 0.3655,
+      "tpr": 0.923,
+      "threshold": 0.058
+    },
+    {
+      "fpr": 0.3873,
+      "tpr": 0.9292,
+      "threshold": 0.051
+    },
+    {
+      "fpr": 0.4042,
+      "tpr": 0.9324,
+      "threshold": 0.0497
+    },
+    {
+      "fpr": 0.4246,
+      "tpr": 0.9418,
+      "threshold": 0.0431
+    },
+    {
+      "fpr": 0.4436,
+      "tpr": 0.9513,
+      "threshold": 0.0405
+    },
+    {
+      "fpr": 0.4649,
+      "tpr": 0.9513,
+      "threshold": 0.0399
+    },
+    {
+      "fpr": 0.4808,
+      "tpr": 0.9591,
+      "threshold": 0.0354
+    },
+    {
+      "fpr": 0.4986,
+      "tpr": 0.9717,
+      "threshold": 0.0315
+    },
+    {
+      "fpr": 0.5102,
+      "tpr": 0.9796,
+      "threshold": 0.0305
+    },
+    {
+      "fpr": 0.5256,
+      "tpr": 0.9811,
+      "threshold": 0.03
+    },
+    {
+      "fpr": 0.5586,
+      "tpr": 0.9874,
+      "threshold": 0.0256
+    },
+    {
+      "fpr": 0.5856,
+      "tpr": 0.9906,
+      "threshold": 0.0213
+    },
+    {
+      "fpr": 0.6054,
+      "tpr": 0.9921,
+      "threshold": 0.0202
+    },
+    {
+      "fpr": 0.6627,
+      "tpr": 0.9921,
+      "threshold": 0.02
+    },
+    {
+      "fpr": 0.6861,
+      "tpr": 0.9984,
+      "threshold": 0.0117
+    },
+    {
+      "fpr": 0.705,
+      "tpr": 1.0,
+      "threshold": 0.0108
+    },
+    {
+      "fpr": 0.7217,
+      "tpr": 1.0,
+      "threshold": 0.0101
+    },
+    {
+      "fpr": 0.823,
+      "tpr": 1.0,
+      "threshold": 0.0095
+    },
+    {
+      "fpr": 0.8472,
+      "tpr": 1.0,
+      "threshold": 0.0005
+    },
+    {
+      "fpr": 0.8606,
+      "tpr": 1.0,
+      "threshold": 0.0001
+    }
+  ],
+  "pr_curve": [
+    {
+      "precision": 0.0569,
+      "recall": 1.0,
+      "threshold": 0.0
+    },
+    {
+      "precision": 0.0671,
+      "recall": 1.0,
+      "threshold": 0.0017
+    },
+    {
+      "precision": 0.0776,
+      "recall": 1.0,
+      "threshold": 0.0102
+    },
+    {
+      "precision": 0.0801,
+      "recall": 0.9984,
+      "threshold": 0.0114
+    },
+    {
+      "precision": 0.0818,
+      "recall": 0.9937,
+      "threshold": 0.0158
+    },
+    {
+      "precision": 0.0903,
+      "recall": 0.9921,
+      "threshold": 0.0203
+    },
+    {
+      "precision": 0.0932,
+      "recall": 0.9906,
+      "threshold": 0.0214
+    },
+    {
+      "precision": 0.0959,
+      "recall": 0.9874,
+      "threshold": 0.0246
+    },
+    {
+      "precision": 0.1015,
+      "recall": 0.9811,
+      "threshold": 0.0301
+    },
+    {
+      "precision": 0.1052,
+      "recall": 0.9717,
+      "threshold": 0.0315
+    },
+    {
+      "precision": 0.1075,
+      "recall": 0.9591,
+      "threshold": 0.0355
+    },
+    {
+      "precision": 0.1123,
+      "recall": 0.9513,
+      "threshold": 0.0401
+    },
+    {
+      "precision": 0.1169,
+      "recall": 0.9513,
+      "threshold": 0.0417
+    },
+    {
+      "precision": 0.1192,
+      "recall": 0.9371,
+      "threshold": 0.0458
+    },
+    {
+      "precision": 0.1248,
+      "recall": 0.9324,
+      "threshold": 0.0502
+    },
+    {
+      "precision": 0.129,
+      "recall": 0.9277,
+      "threshold": 0.0536
+    },
+    {
+      "precision": 0.1323,
+      "recall": 0.9119,
+      "threshold": 0.0593
+    },
+    {
+      "precision": 0.1373,
+      "recall": 0.9009,
+      "threshold": 0.0635
+    },
+    {
+      "precision": 0.1406,
+      "recall": 0.8821,
+      "threshold": 0.0696
+    },
+    {
+      "precision": 0.1451,
+      "recall": 0.8648,
+      "threshold": 0.0751
+    },
+    {
+      "precision": 0.1506,
+      "recall": 0.8506,
+      "threshold": 0.0807
+    },
+    {
+      "precision": 0.1553,
+      "recall": 0.8333,
+      "threshold": 0.088
+    },
+    {
+      "precision": 0.1603,
+      "recall": 0.8145,
+      "threshold": 0.0947
+    },
+    {
+      "precision": 0.1646,
+      "recall": 0.7909,
+      "threshold": 0.1029
+    },
+    {
+      "precision": 0.1702,
+      "recall": 0.772,
+      "threshold": 0.1121
+    },
+    {
+      "precision": 0.1765,
+      "recall": 0.7531,
+      "threshold": 0.1228
+    },
+    {
+      "precision": 0.1835,
+      "recall": 0.7343,
+      "threshold": 0.1321
+    },
+    {
+      "precision": 0.194,
+      "recall": 0.7248,
+      "threshold": 0.1428
+    },
+    {
+      "precision": 0.2038,
+      "recall": 0.7075,
+      "threshold": 0.1562
+    },
+    {
+      "precision": 0.2163,
+      "recall": 0.6934,
+      "threshold": 0.1714
+    },
+    {
+      "precision": 0.2299,
+      "recall": 0.6761,
+      "threshold": 0.19
+    },
+    {
+      "precision": 0.2465,
+      "recall": 0.6588,
+      "threshold": 0.2081
+    },
+    {
+      "precision": 0.2689,
+      "recall": 0.6447,
+      "threshold": 0.2332
+    },
+    {
+      "precision": 0.3001,
+      "recall": 0.6384,
+      "threshold": 0.2643
+    },
+    {
+      "precision": 0.3342,
+      "recall": 0.6226,
+      "threshold": 0.2957
+    },
+    {
+      "precision": 0.3854,
+      "recall": 0.6164,
+      "threshold": 0.3385
+    },
+    {
+      "precision": 0.4535,
+      "recall": 0.6053,
+      "threshold": 0.3875
+    },
+    {
+      "precision": 0.5595,
+      "recall": 0.5991,
+      "threshold": 0.458
+    },
+    {
+      "precision": 0.7368,
+      "recall": 0.5943,
+      "threshold": 0.5713
+    },
+    {
+      "precision": 0.9737,
+      "recall": 0.5236,
+      "threshold": 0.7679
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.1352,
+      "threshold": 0.9885
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature_index": 46,
+      "feature_name": "Feature 47",
+      "importance": 0.05938,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 54,
+      "feature_name": "Feature 55",
+      "importance": 0.05902,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 48,
+      "feature_name": "Feature 49",
+      "importance": 0.05024,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 40,
+      "feature_name": "Feature 41",
+      "importance": 0.04763,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 52,
+      "feature_name": "Feature 53",
+      "importance": 0.03644,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 89,
+      "feature_name": "Feature 90",
+      "importance": 0.03439,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "Feature 5",
+      "importance": 0.02919,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 42,
+      "feature_name": "Feature 43",
+      "importance": 0.02881,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 17,
+      "feature_name": "Feature 18",
+      "importance": 0.02535,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 13,
+      "feature_name": "Feature 14",
+      "importance": 0.01981,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 95,
+      "feature_name": "Feature 96",
+      "importance": 0.01929,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 58,
+      "feature_name": "Feature 59",
+      "importance": 0.01792,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "Feature 2",
+      "importance": 0.0177,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 137,
+      "feature_name": "Feature 138",
+      "importance": 0.01757,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 28,
+      "feature_name": "Feature 29",
+      "importance": 0.01597,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 22,
+      "feature_name": "Feature 23",
+      "importance": 0.01531,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 53,
+      "feature_name": "Feature 54",
+      "importance": 0.01518,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 64,
+      "feature_name": "Feature 65",
+      "importance": 0.01429,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 60,
+      "feature_name": "Feature 61",
+      "importance": 0.01402,
+      "category": "Local Transaction Features"
+    },
+    {
+      "feature_index": 66,
+      "feature_name": "Feature 67",
+      "importance": 0.01375,
+      "category": "Local Transaction Features"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "model_name": "Gradient Boosting",
+  "accuracy": 0.9616,
+  "precision": 0.8292,
+  "recall": 0.7949,
+  "f1": 0.811,
+  "roc_auc": 0.8904,
+  "pr_auc": 0.6772,
+  "illicit_precision": 0.682,
+  "illicit_recall": 0.6069,
+  "illicit_f1": 0.6423,
+  "evaluation_strategy": "Temporal Chronological Split (Train: Steps 1-34, Test: Steps 40-49)",
+  "training_period": "Timesteps 1 - 34",
+  "validation_period": "Timesteps 35 - 39",
+  "testing_period": "Timesteps 40 - 49",
+  "confusion_matrix": {
+    "true_negative": 10368,
+    "false_positive": 180,
+    "false_negative": 250,
+    "true_positive": 386
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0,
+      "threshold": null
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.1242,
+      "threshold": 0.9992
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.2767,
+      "threshold": 0.9987
+    },
+    {
+      "fpr": 0.0007,
+      "tpr": 0.5629,
+      "threshold": 0.96
+    },
+    {
+      "fpr": 0.0033,
+      "tpr": 0.5896,
+      "threshold": 0.8142
+    },
+    {
+      "fpr": 0.0164,
+      "tpr": 0.6069,
+      "threshold": 0.5154
+    },
+    {
+      "fpr": 0.0319,
+      "tpr": 0.6211,
+      "threshold": 0.3257
+    },
+    {
+      "fpr": 0.0527,
+      "tpr": 0.6368,
+      "threshold": 0.1928
+    },
+    {
+      "fpr": 0.075,
+      "tpr": 0.6541,
+      "threshold": 0.1189
+    },
+    {
+      "fpr": 0.102,
+      "tpr": 0.6682,
+      "threshold": 0.0735
+    },
+    {
+      "fpr": 0.1207,
+      "tpr": 0.684,
+      "threshold": 0.0522
+    },
+    {
+      "fpr": 0.1407,
+      "tpr": 0.6997,
+      "threshold": 0.038
+    },
+    {
+      "fpr": 0.1818,
+      "tpr": 0.7154,
+      "threshold": 0.0224
+    },
+    {
+      "fpr": 0.1986,
+      "tpr": 0.7311,
+      "threshold": 0.0186
+    },
+    {
+      "fpr": 0.2143,
+      "tpr": 0.7484,
+      "threshold": 0.0156
+    },
+    {
+      "fpr": 0.2389,
+      "tpr": 0.7626,
+      "threshold": 0.0122
+    },
+    {
+      "fpr": 0.2629,
+      "tpr": 0.7799,
+      "threshold": 0.0095
+    },
+    {
+      "fpr": 0.2783,
+      "tpr": 0.7956,
+      "threshold": 0.0083
+    },
+    {
+      "fpr": 0.2952,
+      "tpr": 0.8113,
+      "threshold": 0.0071
+    },
+    {
+      "fpr": 0.3106,
+      "tpr": 0.8286,
+      "threshold": 0.0062
+    },
+    {
+      "fpr": 0.324,
+      "tpr": 0.8443,
+      "threshold": 0.0055
+    },
+    {
+      "fpr": 0.34,
+      "tpr": 0.8616,
+      "threshold": 0.0047
+    },
+    {
+      "fpr": 0.3662,
+      "tpr": 0.8774,
+      "threshold": 0.0037
+    },
+    {
+      "fpr": 0.3852,
+      "tpr": 0.8947,
+      "threshold": 0.0031
+    },
+    {
+      "fpr": 0.4026,
+      "tpr": 0.9104,
+      "threshold": 0.0026
+    },
+    {
+      "fpr": 0.4288,
+      "tpr": 0.9277,
+      "threshold": 0.0021
+    },
+    {
+      "fpr": 0.4452,
+      "tpr": 0.9418,
+      "threshold": 0.0018
+    },
+    {
+      "fpr": 0.4646,
+      "tpr": 0.9575,
+      "threshold": 0.0015
+    },
+    {
+      "fpr": 0.4977,
+      "tpr": 0.9733,
+      "threshold": 0.0011
+    },
+    {
+      "fpr": 0.5405,
+      "tpr": 0.9858,
+      "threshold": 0.0007
+    },
+    {
+      "fpr": 0.5907,
+      "tpr": 0.9984,
+      "threshold": 0.0005
+    },
+    {
+      "fpr": 0.6515,
+      "tpr": 1.0,
+      "threshold": 0.0004
+    },
+    {
+      "fpr": 0.6893,
+      "tpr": 1.0,
+      "threshold": 0.0003
+    },
+    {
+      "fpr": 0.7637,
+      "tpr": 1.0,
+      "threshold": 0.0002
+    },
+    {
+      "fpr": 0.8378,
+      "tpr": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "fpr": 0.87,
+      "tpr": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "fpr": 0.9239,
+      "tpr": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "fpr": 0.9572,
+      "tpr": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "fpr": 0.9751,
+      "tpr": 1.0,
+      "threshold": 0.0
+    },
+    {
+      "fpr": 0.9848,
+      "tpr": 1.0,
+      "threshold": 0.0
+    },
+    {
+      "fpr": 0.9932,
+      "tpr": 1.0,
+      "threshold": 0.0
+    }
+  ],
+  "pr_curve": [
+    {
+      "precision": 0.0569,
+      "recall": 1.0,
+      "threshold": 0.0
+    },
+    {
+      "precision": 0.0589,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.0606,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.0623,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.064,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.0659,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.0679,
+      "recall": 1.0,
+      "threshold": 0.0001
+    },
+    {
+      "precision": 0.0699,
+      "recall": 1.0,
+      "threshold": 0.0002
+    },
+    {
+      "precision": 0.0721,
+      "recall": 1.0,
+      "threshold": 0.0002
+    },
+    {
+      "precision": 0.0745,
+      "recall": 1.0,
+      "threshold": 0.0002
+    },
+    {
+      "precision": 0.077,
+      "recall": 1.0,
+      "threshold": 0.0003
+    },
+    {
+      "precision": 0.0796,
+      "recall": 1.0,
+      "threshold": 0.0003
+    },
+    {
+      "precision": 0.0825,
+      "recall": 1.0,
+      "threshold": 0.0003
+    },
+    {
+      "precision": 0.0856,
+      "recall": 1.0,
+      "threshold": 0.0004
+    },
+    {
+      "precision": 0.0887,
+      "recall": 0.9984,
+      "threshold": 0.0004
+    },
+    {
+      "precision": 0.0923,
+      "recall": 0.9984,
+      "threshold": 0.0005
+    },
+    {
+      "precision": 0.0957,
+      "recall": 0.9937,
+      "threshold": 0.0006
+    },
+    {
+      "precision": 0.099,
+      "recall": 0.9858,
+      "threshold": 0.0007
+    },
+    {
+      "precision": 0.1028,
+      "recall": 0.9796,
+      "threshold": 0.0009
+    },
+    {
+      "precision": 0.1066,
+      "recall": 0.9701,
+      "threshold": 0.0011
+    },
+    {
+      "precision": 0.1104,
+      "recall": 0.9575,
+      "threshold": 0.0015
+    },
+    {
+      "precision": 0.1137,
+      "recall": 0.9371,
+      "threshold": 0.0019
+    },
+    {
+      "precision": 0.118,
+      "recall": 0.9214,
+      "threshold": 0.0023
+    },
+    {
+      "precision": 0.1221,
+      "recall": 0.9009,
+      "threshold": 0.0029
+    },
+    {
+      "precision": 0.1264,
+      "recall": 0.8789,
+      "threshold": 0.0037
+    },
+    {
+      "precision": 0.1325,
+      "recall": 0.8648,
+      "threshold": 0.0046
+    },
+    {
+      "precision": 0.1377,
+      "recall": 0.8396,
+      "threshold": 0.0059
+    },
+    {
+      "precision": 0.1431,
+      "recall": 0.8113,
+      "threshold": 0.0073
+    },
+    {
+      "precision": 0.1491,
+      "recall": 0.7814,
+      "threshold": 0.009
+    },
+    {
+      "precision": 0.1591,
+      "recall": 0.7657,
+      "threshold": 0.0116
+    },
+    {
+      "precision": 0.1714,
+      "recall": 0.7516,
+      "threshold": 0.0146
+    },
+    {
+      "precision": 0.1836,
+      "recall": 0.7264,
+      "threshold": 0.0194
+    },
+    {
+      "precision": 0.201,
+      "recall": 0.7091,
+      "threshold": 0.0256
+    },
+    {
+      "precision": 0.2267,
+      "recall": 0.7028,
+      "threshold": 0.0356
+    },
+    {
+      "precision": 0.2554,
+      "recall": 0.6824,
+      "threshold": 0.0535
+    },
+    {
+      "precision": 0.2964,
+      "recall": 0.6651,
+      "threshold": 0.0816
+    },
+    {
+      "precision": 0.357,
+      "recall": 0.6478,
+      "threshold": 0.1318
+    },
+    {
+      "precision": 0.4518,
+      "recall": 0.6258,
+      "threshold": 0.2268
+    },
+    {
+      "precision": 0.6365,
+      "recall": 0.6085,
+      "threshold": 0.4459
+    },
+    {
+      "precision": 0.9851,
+      "recall": 0.5204,
+      "threshold": 0.9838
+    },
+    {
+      "precision": 1.0,
+      "recall": 0.0613,
+      "threshold": 0.9994
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature_index": 164,
+      "feature_name": "Feature 165",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 163,
+      "feature_name": "Feature 164",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 162,
+      "feature_name": "Feature 163",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 161,
+      "feature_name": "Feature 162",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 160,
+      "feature_name": "Feature 161",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 159,
+      "feature_name": "Feature 160",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 158,
+      "feature_name": "Feature 159",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 157,
+      "feature_name": "Feature 158",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 156,
+      "feature_name": "Feature 157",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 155,
+      "feature_name": "Feature 156",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 154,
+      "feature_name": "Feature 155",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 153,
+      "feature_name": "Feature 154",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 152,
+      "feature_name": "Feature 153",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 151,
+      "feature_name": "Feature 152",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 150,
+      "feature_name": "Feature 151",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 149,
+      "feature_name": "Feature 150",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 148,
+      "feature_name": "Feature 149",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 147,
+      "feature_name": "Feature 148",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 146,
+      "feature_name": "Feature 147",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    },
+    {
+      "feature_index": 145,
+      "feature_name": "Feature 146",
+      "importance": 0.00606,
+      "category": "Neighborhood Aggregate Features"
+    }
+  ]
+}
