@@ -31,11 +31,11 @@ CREATE INDEX IF NOT EXISTS idx_transactions_risk_level ON transactions(risk_leve
 CREATE INDEX IF NOT EXISTS idx_transactions_time_step ON transactions(time_step);
 
 -- Table: transaction_features
--- Scalable float array storage for the 165 normalized feature columns
+-- JSON text storage for the 165 normalized feature columns
 CREATE TABLE IF NOT EXISTS transaction_features (
     transaction_id BIGINT PRIMARY KEY REFERENCES transactions(transaction_id) ON DELETE CASCADE,
-    features DOUBLE PRECISION[] NOT NULL,
-    feature_summary JSONB,
+    features TEXT NOT NULL,
+    feature_summary TEXT,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS model_metrics (
     pr_auc DOUBLE PRECISION NOT NULL,
     accuracy DOUBLE PRECISION NOT NULL,
     evaluation_strategy VARCHAR(128) NOT NULL,
-    details JSONB,
+    details TEXT,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 

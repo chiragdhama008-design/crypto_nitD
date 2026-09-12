@@ -28,10 +28,11 @@ class EllipticParser:
     def load_classes_dict(self) -> Dict[int, str]:
         """Loads transaction ID -> normalized label map into memory (~200k items = ~15MB RAM)."""
         df = pd.read_csv(self.classes_file)
+        tx_ids = df["txId"].astype(int).values
+        raw_classes = df["class"].astype(str).values
         classes_map = {}
-        for _, row in df.iterrows():
-            tx_id = int(row["txId"])
-            classes_map[tx_id] = map_elliptic_class(row["class"]).value
+        for tx_id, cls in zip(tx_ids, raw_classes):
+            classes_map[int(tx_id)] = map_elliptic_class(cls).value
         return classes_map
 
     def calculate_degrees(self) -> Dict[int, Dict[str, int]]:
